@@ -97,7 +97,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=cyrax2-spy
-            -Dsonar.projectKey=Cyrax2-Spy_BenchmarkPython
+            -Dsonar.projectKey=Cyrax2-Spy_flask
       - name: Measure SonarQube Execution Time
         if: always()
         run: |
